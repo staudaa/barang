@@ -1,0 +1,63 @@
+.content {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-color: #9fc496; */
+	background: url(../../ass/image/bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.login {
+	width: 60%;
+	/* height: 40vh; */
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	box-shadow: #71c55d;
+	flex-direction: column;
+}
+
+.login-box {
+	width: 100%;
+}
+
+.login-logo {
+	display: flex;
+	justify-content: center;
+}
+
+.login-logo h1 {
+	font-size: 33px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #555;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.login-logo h1 span {
+	color: #71c55d;
+}
+
+.login-box img {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.login-box button {
+	background-color: transparent;
+	border-color: #71c55d;
+	color: #555;
+	border-radius: 20px;
+	width: 30%;
+	margin-left: 35%;
+}
+
+.login-box button:hover {
+	background-color: #71c55d;
+	color: #f6f8f5;
+}
